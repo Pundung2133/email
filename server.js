@@ -11,8 +11,8 @@ app.use(cors());
 const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'your-email@gmail.com', // 발송자 이메일 주소
-        pass: 'your-email-password' // 발송자 이메일 비밀번호
+        user: 'parksam2133@gmail.com', // 발송자 이메일 주소
+        pass: '!Parksam5908' // 발송자 이메일 비밀번호
     }
 });
 
